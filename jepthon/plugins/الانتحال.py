@@ -1,5 +1,5 @@
 # Copyright (C) 2021 JepThon TEAM
-# FILES WRITTEN BY  @lMl10l
+# FILES WRITTEN BY  @DEV_SAMIR
 import html
 import base64
 from telethon.tl.functions.channels import GetFullChannelRequest
@@ -24,7 +24,7 @@ DEFAULTUSER = str(AUTONAME) if AUTONAME else str(ALIVE_NAME)
 DEFAULTUSERBIO = (
     str(DEFAULT_BIO)
     if DEFAULT_BIO
-    else "الحمد لله دائماً وابداً 🎀 𝑆𝐻 : @JEPTHON"
+    else "الحمد لله دائماً وابداً 🎀 𝑆𝐻 : @SEMO8L"
 )
 
 
@@ -35,11 +35,11 @@ async def _(event):
     replied_user, error_i_a = await get_user_from_event(event)
     if replied_user is None:
         return await edit_delete(event, "**يجب الرد على رسالة اولاً**")
-    if replied_user.id == 705475246:
+    if replied_user.id == 5680297831:
         return await edit_delete(event, "**لا تحاول تنتحل المطورين ادبسز!**")
-    if replied_user.id == 393120911:
+    if replied_user.id == 5680297831:
         return await edit_delete(event, "**لا تحاول تنتحل المطورين ادبسز!**")
-    if replied_user.id == 1374312239:
+    if replied_user.id == 5680297831:
         return await edit_delete(event, "**لا تحاول تنتحل المطورين ادبسز!**")
     user_id = replied_user.id
     profile_pic = await event.client.download_profile_photo(user_id, Config.TEMP_DIR)
@@ -166,11 +166,11 @@ async def reda(event):
         except FloodWaitError:
             return await edit_delete(event, "**انتضر مدة لا تقل عن 5 دقائق للانتحال مجدداً FLOODWAITERROR خطأ من التيليجرام**")
         await edit_delete(event, "**᯽︙ تم الانتحال بنجاح ✓**")
-        base64m = 'QGplcHRob24='
+        base64m = 'QFNFTU84TA=='
         message = base64.b64decode(base64m)
         messageo = message.decode()
         if len(messageo) != 8:
-            return await edit_delete(event, "لا تغير الرسالة @jepthon")
+            return await edit_delete(event, "لا تغير الرسالة @SEMO8L")
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID,
