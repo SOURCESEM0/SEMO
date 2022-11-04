@@ -74,7 +74,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/ec05d05719cc93dd2b663.jpg",
                 caption="**᯽︙ بــوت سيمو يـعـمـل بـنـجـاح ✓ **\n**᯽︙ ارسل `.الاوامر` لرؤية اوامر السورس**",
-                buttons=[(Button.url("سورس سيمو", "https://t.me/DEV_SAMlR"),)],
+                buttons=[(Button.url("{ 𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐄𝐌𝐎 }", "https://t.me/DEV_SAMIR"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -313,7 +313,7 @@ async def verifyLoggerGroup():
         flag = True
     if flag:
         executable = sys.executable.replace(" ", "\\ ")
-        args = [executable, "-m", "jepthon"]
+        args = [executable, "-m", "SEMO8L"]
         os.execle(executable, *args, os.environ)
         sys.exit(0)
 
