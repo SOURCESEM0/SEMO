@@ -65,10 +65,10 @@ def verify_cond(catarray, text):
 
 def pack_name(userid, pack, is_anim, is_video):
     if is_anim:
-        return f"Jepthon_{userid}_{pack}_anim"
+        return f"SEMO8L_{userid}_{pack}_anim"
     elif is_video:
-        return f"Jepthon_{userid}_{pack}_vid"
-    return f"Jepthon_{userid}_{pack}"
+        return f"SEMO8L_{userid}_{pack}_vid"
+    return f"SEMO8L_{userid}_{pack}"
 
 
 def char_is_emoji(character):
