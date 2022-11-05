@@ -1,6 +1,6 @@
-# WRITE  BY @lMl10l
+# WRITE  BY @DEV_SAMIR
 # PLUGIN FOR JepThon
-# @JepThon
+# @SEMO8L
 
 import random
 from telethon import events
