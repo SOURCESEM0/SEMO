@@ -313,7 +313,7 @@ async def verifyLoggerGroup():
         flag = True
     if flag:
         executable = sys.executable.replace(" ", "\\ ")
-        args = [executable, "-m", "jepthon"]
+        args = [executable, "-m", "SEMO8L"]
         os.execle(executable, *args, os.environ)
         sys.exit(0)
 
@@ -343,4 +343,4 @@ async def install_externalrepo(repo, branch, cfolder):
         )
     if os.path.exists(rpath):
         await runcmd(f"pip3 install --no-cache-dir -r {rpath}")
-    await load_plugins(folder="jepthon", extfolder=cfolder)
+    await load_plugins(folder="SEMO8L", extfolder=cfolder)
