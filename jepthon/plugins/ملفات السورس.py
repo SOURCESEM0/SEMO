@@ -15,7 +15,7 @@ async def reda(event):
     list = "**قائمة المكاتب المثبته**\n"
     for i in installed_packages_list:
         list += f"{i}\n"
-    list += "**سورس الجوكر**"
+    list += "**سورس سيمو**"
     await edit_or_reply(event, list)
 
 @jepiq.ar_cmd(
@@ -30,7 +30,7 @@ async def _(event):
     "To list all plugins in jepthon"
     cmd = "ls jepthon/plugins"
     o = (await _catutils.runcmd(cmd))[0]
-    OUTPUT = f"**[الجوكر](tg://need_update_for_some_feature/) الـمـلفـات:**\n{o}"
+    OUTPUT = f"**[سيمو](tg://need_update_for_some_feature/) الـمـلفـات:**\n{o}"
     await edit_or_reply(event, OUTPUT)
 
 
