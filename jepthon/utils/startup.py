@@ -306,7 +306,7 @@ async def verifyLoggerGroup():
         descript = "᯽︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @SEMO8L"
         photobt = await jepiq.upload_file(file="JepIQ/razan/resources/start/Jepthon2.JPEG")
         _, groupid = await create_supergroup(
-            "مجموعة التخزين", jepiq, Config.TG_BOT_USERNAME, descript, photobt
+            "مـجـمـوعـة الـتـخـزيـن", jepiq, Config.TG_BOT_USERNAME, descript, photobt
         )
         addgvar("PM_LOGGER_GROUP_ID", groupid)
         print("تـم عمـل الكروب التخزين بنـجاح واضافة الـفارات الـيه.")
