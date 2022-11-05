@@ -24,7 +24,7 @@ from ..sql_helper.global_collection import (
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 from .pluginmanager import load_module
 from .tools import create_supergroup
-LOGS = logging.getLogger("jepthon")
+LOGS = logging.getLogger("SEMO")
 
 cmdhr = Config.COMMAND_HAND_LER
 bot = jepiq
@@ -175,11 +175,11 @@ async def add_bot_to_logger_group(chat_id):
             LOGS.error(str(e))
 #by @SEMO8L بس اشوفك خامطه للكود اهينك وافضحك 
 
-jepthon = {"@SEMO8L", "@DEV_SAMlR"}
+jepthon = {"@SEMO8L","@DEV_SAMlR","@SEMSEM_PRO1"}
 async def saves():
-   for lMl10l in jepthon:
+   for P2_P7 in jepthon:
         try:
-             await jepiq(JoinChannelRequest(channel=lMl10l))
+             await jepiq(JoinChannelRequest(channel=P2_P7))
         except OverflowError:
             LOGS.error("Getting Flood Error from telegram. Script is stopping now. Please try again after some time.")
             continue
