@@ -72,7 +72,7 @@ async def startupmessage():
         if BOTLOG:
             Config.CATUBLOGO = await jepiq.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/3c595e91d922a8df1fc5c.jpg",
+                "https://telegra.ph/file/ec05d05719cc93dd2b663.jpg",
                 caption="⌯︙**بــوت سـيـمـو  يـعـمـل بـنـجـاح**  ✅ \n⌯︙**قـنـاة الـسـورس**  :  @SEMO8L",
                 buttons=[(Button.url("كروب سـيـمـو ", "https://t.me/DEV_SAMlR"),)],
             )
