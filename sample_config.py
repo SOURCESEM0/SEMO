@@ -5,7 +5,7 @@ from telethon.tl.types import ChatBannedRights
 
 class Config(object):
     LOGGER = True
-
+    PORT = os.environ.get("PORT", None)
     A_PIC = os.environ.get("A_PIC", None)
     ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
     SC_TEXT = os.environ.get("SCPIC_TEXT", None)
@@ -26,10 +26,10 @@ class Config(object):
     )
     TG_BOT_USERNAME = None
     # get this value from http://www.timezoneconverter.com/cgi-bin/findzone.tzc
-    TZ = os.environ.get("TZ", "Africa/Cairo")
+    TZ = os.environ.get("TZ", "Asia/Baghdad")
     # set this with required cat repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/SOURCESEM0/SEMO.git"
+        "UPSTREAM_REPO", "https://github.com/jepthoniq/jepthon.git"
     )
 
     # BASIC and MAIN CONFIG VARS
